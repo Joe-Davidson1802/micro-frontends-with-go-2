@@ -13,7 +13,7 @@ services:
     volumes: 
     - ../src/goodbye/:/app
   proxy:
-    image: joedavidson1802/moxy:v0.2.0
+    image: joedavidson1802/moxy:v0.2.1
     volumes: 
     - ./moxy-config.toml:/app/defaults.toml
     ports:
